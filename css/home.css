@@ -1,0 +1,290 @@
+@import url('../font/corbel.css');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+section{
+  background: rgba(240,253,255,.8);
+}
+header{
+  position: sticky;
+  top:0px;
+  left: 0px;
+  width: 100%;
+}
+header .collapse.show{
+  border:0px !important; 
+}
+.btn-blue:hover{
+  color: #fff;
+  text-decoration: none;
+}
+header .nav-link{
+  font-size: 16px;
+  margin:0px 10px;
+  font-weight: 600;
+  font-family: 'Quicksand', sans-serif;
+}
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
+    color: rgb(27 106 250);
+}
+.section-title{
+  width: 100%;
+  padding: 0px 0px 20px;
+}
+.section-title h2{
+  font-size: 32px;
+  font-weight: bold;
+  margin: 0px;
+  font-family: 'Quicksand', sans-serif;
+}
+.contact_us{
+  padding:100px 0 50px 0;
+  width: 100%;
+  display: block;
+  background: #eaeff0;
+}
+.contact_us form {
+  width: 100%;
+  padding: 0px 0;
+  border-radius: 8px;
+  /*background-color: rgba(27,106,250,.9);*/
+}
+.contact_us form p{
+  font-size: 16px;
+  font-weight: bold;
+   font-family: 'Corbel', sans-serif;
+}
+.contact_us form label{
+  font-size: 16px;
+  margin:0px;
+  padding: 0px;
+  font-weight: normal;
+   font-family: 'Corbel', sans-serif;
+  /*color: #fff*/
+}
+.contact_us form .form-control{
+      height: unset;
+    font-size: 16px;
+    padding: 8px 20px;
+    /*border-color: #fff;*/
+    /*background-color: #f3fdff;*/
+    outline: none;
+    box-shadow: none;
+     font-family: 'Corbel', sans-serif;
+}
+.contact_us form .form-group{
+  margin-bottom: 10px;
+}
+.address-widget {
+    position: relative;
+    padding: 10px 10px 10px 60px;
+    margin-bottom: 20px;
+}
+.address-widget i{
+    position: absolute;
+    left: 0;
+    top: 10px;
+    color: #1b6afa;
+    font-size: 24px;
+    width: 45px;
+    height: 45px;
+    border: 1px solid #1b6afa;
+    border-radius: 40px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+.address-widget h2{
+    margin: 0px;
+    font-size: 24px;
+    font-weight: bold;
+    height: 45px;
+    line-height: 45px;
+    font-family: 'Quicksand', sans-serif;
+}
+.address-widget p{
+    margin: 0px;
+    font-size: 14px;
+    font-weight: bold;
+     font-family: 'Corbel', sans-serif;
+}
+.download-section{
+  background-image: url(../img/bg-contact.png);
+  background-size: cover;
+  background-position: bottom center;
+  background-repeat: no-repeat;
+  padding:100px 0 50px 0;
+}
+.download-section img{
+  max-width: 300px;
+  height: auto;
+  max-height: 600px
+}
+.mobile-img{
+  display:inline-block;
+  max-width: 320px;
+  width: 100%;
+  margin:0px auto;
+}
+.download-section h2{
+  font-size: 50px;
+  font-weight: bold;
+  font-family: 'Quicksand', sans-serif;
+}
+.download-section p{
+  font-size: 27px;
+  font-weight:normal;
+   font-family: 'Corbel', sans-serif;
+}
+.download-section ul{
+  list-style: none;
+  padding: 0px;
+  display: flex;
+  width: 100%;
+}
+.download-section ul li{
+  margin-right: 10px;
+}
+.features {
+    display: block;
+    width: 100%;
+    padding: 50px 0;
+    background: #fff;
+}
+.features-card img{
+  width: 100%;
+  border-radius: 4px;
+}
+.features-card h2 {
+    font-size: 27px;
+    font-weight: bold;
+    margin: 14px 0px;
+    font-family: 'Quicksand', sans-serif;
+}
+.features-card p{
+     font-size: 20px;
+  font-weight: normal;
+   font-family: 'Corbel', sans-serif;
+}
+.aboutsection{
+  padding:100px 0 50px 0;
+  width: 100%;
+  display: block;
+}
+.aboutsection p{
+    font-size: 20px;
+  font-weight: normal;
+   font-family: 'Corbel', sans-serif;
+}
+.welcome-message{
+  padding-right: 30px;
+}
+.welcome-message h2{
+  font-size: 40px;
+  font-weight: bold;
+  font-family: 'Quicksand', sans-serif;
+}
+.welcome-message p{
+  font-size: 20px;
+  font-weight: bold;
+   font-family: 'Corbel', sans-serif;
+}
+.welcome-image {
+    position: relative;
+    display: inline-block;
+    margin: 100px 50px 100px auto;
+
+}
+.welcome-image img{
+  max-width: 200px;
+  border-radius:10px;
+}
+.welcome-image img:nth-child(1){
+  max-width: 450px;
+  border-radius:10px;
+}
+.welcome-image img:nth-child(2){
+  position: absolute;
+  z-index: 1;
+  left: -60px;
+  top: -60px;
+}
+.welcome-image img:nth-child(3){
+  position: absolute;
+  z-index: 1;
+  right: -60px;
+  bottom: -60px;
+}
+
+@media (max-width:1199px){
+   .welcome-image img:nth-child(1){
+    max-width: 400px;
+    width: 100%;
+  }
+}
+
+@media (max-width:992px){
+  .welcome-image img:nth-child(1){
+    max-width: 350px;
+    width: 100%;
+  }
+  .welcome-image img{
+    width: 150px;
+  }
+  img{
+    max-width: 100%;
+  }
+  .download-section img{
+    max-width: 300px;
+  }
+  header .brand-logo{
+    width: 130px;
+  }
+  .download-section h2{
+    margin-top: 30px;
+    font-size: 45px;
+  }
+  .download-section p{
+    font-size: 20px;
+  }
+  header.p-0{
+    padding: 10px !important;
+  }
+}
+@media (max-width: 767px){
+  .welcome-image{
+    margin: 100px auto;
+  }
+   .welcome-image img:nth-child(1){
+    max-width: 250px
+   }
+   .welcome-image img:nth-child(2){
+    left: -50px;
+   }
+   .welcome-image img:nth-child(3){
+    right: -50px;
+   }
+   .home-banner{
+    padding: 50px 0 0;
+   }
+   .aboutsection img{
+    width: 80px;
+    margin-bottom: 20px;
+   }
+   .aboutsection .text-center{
+    text-align: left !important
+   }
+   .section-title h2{
+    font-size: 27px;
+   }
+   .features-card{
+    margin:30px 0;
+   }
+   .features-card h2{
+    font-size: 22px;
+   }
+   .download-section img {
+      max-width: 200px;
+  }
+  .download-section ul li img{
+    max-width: 140px;
+  }
+}
